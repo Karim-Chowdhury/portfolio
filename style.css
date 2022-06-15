@@ -1,0 +1,170 @@
+body{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    background-image: url(image/zhenyu-luo-drBPlABNooo-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    font-size: 30px;
+    color: aliceblue;
+}
+.blue{
+    color: blue;
+    font-size: 40px;
+}
+.up{
+    font-size: 40px;
+}
+.orenge{
+    color: orangered;
+}
+section{
+    display: flex;
+    margin: 20px;
+}
+h3{
+    color: rgb(252, 0, 252);
+}
+p{
+    color: white;
+   
+}
+.first-width{
+    width: 50%;
+    padding-left: 2%;
+}
+.link-batton{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(255, 0, 221) );
+    color: white;
+    border-radius: 5px;
+    padding: 3px;
+}
+.link-batton:hover{
+    background-color: aqua;
+    box-shadow: 0 0 10px white;
+}
+.navber{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0%;
+    background-color: rgb(36, 41, 41);
+}
+.navber ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+    padding-right: 10%;
+}
+.navber ul li{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.navber ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 8px 8px;
+    transition: all .5s ease;
+}
+.navber ul li a:hover{
+    background-color: rgb(243, 1, 243);
+    color: black;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+
+.headings{
+    color: aqua;
+}
+.half-width{
+    text-align: left;
+    padding-right: 5%;
+}
+.red{
+    color: rgb(2, 25, 233);
+    font-size: 40px;
+    text-align: center;
+}
+.color{
+    color: rgb(238, 46, 255);
+    text-align: center;
+}
+.half-width{
+    width: 70%;
+}
+.second-width img{
+    width: 70%;
+    padding-top: 10%;
+    padding-right: 10%;
+
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(255, 0, 221) );
+    color: white;
+    border-radius: 5px;
+    padding: 3px;
+}
+.button:hover{
+    
+    box-shadow: 0 0 10px white;
+}
+.exp{
+    color: rgb(255, 6, 213);
+    padding-left: 2%;
+    padding-top: 5%;
+    font-size: 50px;
+}
+.experience{
+    display: flex;
+    padding-top: 2%;
+    font-size: 20px;
+    
+}
+.size{
+    width: 40%;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+   
+    padding-left: 10px;
+    border-radius: 20px;
+    
+    
+}
+#full-stack{
+    
+    border-left: 5px solid;
+    border-top: 5px solid;
+    border-bottom: 5px solid;
+    border-right: 5px solid;
+    border-image: linear-gradient(rgb(68, 68, 218) ,tomato,white);
+    border-image-slice: 2;
+    
+}
+.big{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(225, 0, 255);
+}
+.low{
+    color: aliceblue;
+}
+#baby-web{
+    border-left: 4px solid;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-right: 4px solid;
+    border-image: linear-gradient(rgb(255, 217, 0) ,rgb(6, 183, 236),white);
+    border-image-slice: 2;
+}
+.footer{
+    text-align: center;
+}
+.footer p{
+    color: blue;
+}
